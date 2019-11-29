@@ -72,3 +72,6 @@ h1 {
   cursor: default !important;
   padding-top: 10px !important;
 }
+#prices {
+  text-align: center;
+}
