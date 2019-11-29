@@ -18,11 +18,14 @@ class Course extends Component {
   }
 
   render() {
-    console.log(this.props);
     return (
       <div>
         <p onClick={this.clicker}>
-          {this.props.name} <strong>{this.props.price}</strong>
+          {this.props.name}
+          <strong>
+            <span>&#8364;</span>
+            {this.props.price}
+          </strong>
         </p>
       </div>
     );

@@ -15,8 +15,6 @@ class Coursesales extends Component {
   }
 
   render() {
-    console.log(this.props.items);
-
     let courses = this.props.items.map((item, i) => {
       return (
         <Course
@@ -34,7 +32,11 @@ class Coursesales extends Component {
         <div id="courses">
           {courses}
           <p id="total">
-            Total <strong>{this.state.total}</strong>
+            Total:{" "}
+            <strong>
+              <span>&#8364;</span>
+              {this.state.total}
+            </strong>
           </p>
         </div>
       </div>
