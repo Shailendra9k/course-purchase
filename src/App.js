@@ -13,7 +13,6 @@ class App extends Component {
     return (
       <div className="App">
         <div>
-          <p>Welcome to course sales page.</p>
           <Coursesales items={courses} />
         </div>
       </div>
