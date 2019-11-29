@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background: #ecf0f1;
 }
 
 .App-logo {
@@ -21,8 +22,9 @@
   color: #09d3ac;
 }
 h1 {
-  font-size: 18px;
+  font-size: 30px;
   margin-bottom: 20px;
+  color: #c0392b;
 }
 
 #courses {

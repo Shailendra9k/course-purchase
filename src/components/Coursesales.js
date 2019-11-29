@@ -28,7 +28,7 @@ class Coursesales extends Component {
     });
     return (
       <div>
-        <h1>You can buy Courses:</h1>
+        <h1> Buy Courses</h1>
         <div id="courses">
           {courses}
           <p id="total">
