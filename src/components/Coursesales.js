@@ -8,9 +8,10 @@ class Coursesales extends Component {
     this.state = {
       total: 0
     };
+    this.sumPrice = this.sumPrice.bind(this);
   }
   sumPrice(price) {
-    this.setState(() => ({ total: this.state.total + price }));
+    this.setState({ total: this.state.total + price });
   }
 
   render() {
@@ -42,5 +43,3 @@ class Coursesales extends Component {
 }
 
 export default Coursesales;
-
-//{ total: this.state.total + price }
